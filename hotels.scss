@@ -1,0 +1,86 @@
+@import "__resets";
+@import "__navbar";
+@import "__hotels-page-media-query";
+@include navbar();
+
+#title{
+position: absolute;
+margin:2.3% 0 0 35%;
+font: 2em sans-serif;
+}
+nav{
+    margin-top: 1em;
+}
+main{
+    background: black;
+    height: 88vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    align-items: center;
+    width: 100%;
+}
+.hotel-info{
+    color: white;
+    margin: 1em;
+    border: 2px solid grey;
+    width: 25%;
+    height: 40em;
+    font-family: sans-serif;
+    padding-bottom: .5em;
+    // margin-bottom: 2em;
+  h1{
+      margin: .8em;
+  }
+  #fairmont-heading{
+      font-size: 1.3em;
+  }
+  #rating{
+color: springgreen;      
+margin: .5em;
+  }
+    span{
+        padding: .1em;
+        margin: .5em;
+    }
+    #price{
+    margin: 1em;
+    }
+    #hotel-desc{
+        margin: 1em;
+    }
+    
+    button{
+        margin: 1em;
+        cursor: pointer;
+        background: rgb(14, 84, 236);
+        border: none;
+        outline: none;
+        height: 1.5em;
+        padding: .2em;
+        color: whitesmoke;
+    }
+}
+#hotel-image-holder{
+height: 40%;
+width: 100%;
+}
+
+#next-page-link{
+    color: white;
+    margin-top:40%;
+    margin-left: 83%;
+    position: fixed;
+    text-decoration: none;
+}
+#previous-page-link{
+    @extend #next-page-link;
+    font-size:1em;
+    margin-left: 82%;
+}
+#next-page3-link{
+    position: absolute;
+    color: white;
+    margin: 40% 0 0 93%;
+    text-decoration: none;
+}
