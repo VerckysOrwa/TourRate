@@ -1,0 +1,43 @@
+@import "__resets";
+@import "__homepage-media-query";
+@import "__animations";
+@import "__navbar";
+#first{
+    background: url("../images/angama-mara-kenya-p.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   animation: image-change 15s infinite cubic-bezier(0.86, 0, 0.07, 1);
+
+
+    @include navbar();
+ 
+    #welcome{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        width:auto;
+        margin-left: 25%;
+        padding: 2em;
+    
+
+     font: 3em sans-serif;
+     color: white;
+ }
+
+#visit-hotels-btn>button{
+        margin:25% 0 0% 35%;
+    width: 30%;
+    height: 3em;
+    border-radius: .5em;
+     background: rgba(16, 16, 236, 0.788);
+         color: rgb(240, 243, 247);
+         text-decoration: none;
+         font: 1.3em sans-serif;
+         outline: none;
+         cursor: pointer;
+     }
+ }
+
+

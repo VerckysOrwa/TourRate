@@ -1,0 +1,22 @@
+@mixin navbar {
+nav{
+display: flex;
+font: 1em sans-serif;
+justify-content:left;
+background: rgba(14, 13, 13,.8);
+position:relative;
+margin-left: 80%;
+margin-bottom: 1em;
+width: 17%;
+margin-top:0%;
+a{
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    &:hover{
+        background: white;
+        color: black;
+    }
+}
+    }
+}
