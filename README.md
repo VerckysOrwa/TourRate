@@ -23,6 +23,8 @@ Tourrate is simply built on
 - Sass
 - HTML 
 - CSS
+- Javascript/nodejs
+- Mysqldb
 
 ## Project link
 You can check out the project via the link below
