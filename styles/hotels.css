@@ -139,4 +139,86 @@ main {
   margin: 40% 0 0 93%;
   text-decoration: none;
 }
+
+#feedback-heading {
+  position: absolute;
+  color: #080808;
+  margin: -40% 0 0 89%;
+  font-family: sans-serif;
+  height: 3em;
+  width: 10em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#feedback-heading:hover {
+  background: black;
+  color: white;
+}
+
+form {
+  font-family: sans-serif;
+  color: white;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  visibility: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 82%;
+  margin-top: -10%;
+}
+
+form label {
+  margin: .8em;
+}
+
+form input, form textarea {
+  padding: .5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  outline: none;
+}
+
+form input::-webkit-input-placeholder, form textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+form input:-ms-input-placeholder, form textarea:-ms-input-placeholder {
+  color: white;
+}
+
+form input::-ms-input-placeholder, form textarea::-ms-input-placeholder {
+  color: white;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: white;
+}
+
+form input {
+  border: none;
+  border-bottom: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+form textarea {
+  background: transparent;
+  border: .8px solid white;
+  color: white;
+}
+
+form button {
+  background: rgba(73, 73, 248, 0.938);
+  color: white;
+  margin: 1em;
+  height: 2em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
 /*# sourceMappingURL=hotels.css.map */

@@ -21,6 +21,14 @@
     </section>
 
       <main>
+          <button id="feedback-heading">Give us a feedback</button>
+        <form>
+            <label for="">Email</label>
+            <input name="email" id="email" type="email" placeholder="eg:xyz@email.com"  encType='multipart/form-data'>
+            <label for="">Message</label>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Enter message"  encType='multipart/form-data'></textarea>
+            <button id="sendFeedback">Send</button>
+        </form>
         <section class="hotel-info" >
             <h1>Angama Mara</h1><h5 id="rating">Expert Rating:9/10</h5>
         <div id="hotel-image-holder">
@@ -139,5 +147,7 @@
         </section>
         <a href="hotelspg2.html" id="next-page-link"><span >Next Page >>></span></a>
     </main>
+    <script src="../styles/styles.js"></script>
+    <script src="./routes/post_route.js"></script>
 </body>
 </html>
