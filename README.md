@@ -4,11 +4,13 @@ A Tours and travel website for reviews
 # Table Of Contents
 - [Introduction](#introduction)
 - [Functional Requirements](#functional-requirements)
-- [Which Technologies is tourRate Built On?](#techologies)
+- [Which Technologies is tourRate Built On?](#technologies)
+- [Challenges encountered](#challenges)
 - [View Project](#project-link)
 
 ## Introduction
 ### So...What is tourrate ?🤔.Well as mentioned above,Tourate is a travels and tours website for reviewing the best hotels and lounges in Kenya based on real reviews from experts.The site contains details such as the locations of the hotels,the price charging by each hotel and the hotel image previews among other usefull information which may be needed by tourists who are visiting Kenya for the first time or those who want to visit Kenya but are not aware of where to start.The user can also check on the availability of their desired place of choice while in tourrate 
+
 ## Functional requirements
 - The website should contain graphical representations of hotels to enable users to preview the environmental appearance of each of the hotels
 - The website should contain a brief description about the destinations.
@@ -24,8 +26,11 @@ Tourrate is simply built on
 - HTML 
 - CSS
 - Javascript/nodejs
-- Mysqldb
+- Mysqldb 
+
+## Challenges
+- One of the major challenges encountered during production was responsiveness but i was able to counteract the issue by re creating the web app using a css framework(Tailwind css).You can check out the final build here 👉🏾 https://tourate.netlify.app
 
 ## Project link
-You can check out the project via the link below
+You can check out this project via the link below
 # https://tourrate.netlify.app
